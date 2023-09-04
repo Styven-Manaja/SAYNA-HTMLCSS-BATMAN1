@@ -1,0 +1,87 @@
+html {
+	background-color: #000000;
+}
+
+.en-tete {
+	background-image: url('../assets/Illustrations/Bathome1.png');
+	background-size: cover;
+}
+
+
+
+figcaption {
+	color: #FFFFFF;
+}
+
+p {
+	size: 18px;
+}
+
+p, h1, h2, blockquote {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+footer {
+	background-color: #000000;
+	margin: 0 auto;
+}
+
+
+h1 {
+	size: 36px;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+
+ul {
+	list-style-type: none;
+}
+
+#home {
+	text-decoration: underline;
+	text-align: right;
+}
+
+figure {
+	display: inline-block;
+}
+
+
+#fleche {
+	margin: 132px auto;
+}
+
+.navig {
+	display: block;
+}
+
+main {
+	background-color: #000000;
+	margin: 132px auto;
+}
+
+.div {
+    display: flex;
+    align-items: center; /* Pour centrer verticalement */
+    height: 100px;
+}
+
+.button-left, .button-right {
+    padding: 10px 20px;
+    background-color: #C4C4C4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-left:hover, .button-right:hover {
+    background-color: #EDDEBF;
+    color: #C4C4C4;
+}
+
+.character-card:hover {
+    transform: scale(1.1); /* Zoom de 10% */
+}
