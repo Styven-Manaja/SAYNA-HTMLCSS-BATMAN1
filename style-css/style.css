@@ -1,20 +1,75 @@
 html {
-	background-color: #000000;
+	background-image: url(C:/Users/STIVE/Desktop/batman/Bathome1.png);
+    background-color: #000000;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    text-align: center;
 }
 
-.en-tete {
-	background-image: url('../assets/Illustrations/Bathome1.png');
-	background-size: cover;
+body {
+    padding-left: 102px;
+    padding-right: 102px;
 }
 
+header h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: right;
+}
 
+h2 a {
+    color: inherit;
+}
+
+header img {
+    float: left;
+}
+
+.navig {
+    position: fixed;
+    right: 102px;
+}
+
+button {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: medium;
+    background-color:  #eddebf41;
+    text-transform: uppercase;
+    font-size: 20px;
+    border: none;
+    color: inherit;
+}
+
+#fleche {
+    display: block;
+    margin: 132px auto;
+}
 
 figcaption {
 	color: #FFFFFF;
 }
 
-p {
-	size: 18px;
+header p {
+    text-align: center;
+    margin-top: 132px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+}
+
+section p {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+ section h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
 }
 
 p, h1, h2, blockquote {
@@ -23,7 +78,6 @@ p, h1, h2, blockquote {
 }
 
 footer {
-	background-color: #000000;
 	margin: 0 auto;
 }
 
@@ -53,12 +107,7 @@ figure {
 	margin: 132px auto;
 }
 
-.navig {
-	display: block;
-}
-
 main {
-	background-color: #000000;
 	margin: 132px auto;
 }
 
